@@ -1,6 +1,7 @@
 {
   "mappings": [
-    "/content/wknd-xwalk/:/"
+    "/content/wknd-xwalk/:/",
+    "/content/wknd-xwalk/redirects:/redirects.json"
   ],
   "includes": [
     "/content/wknd-xwalk/"
