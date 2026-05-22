@@ -64,7 +64,7 @@ function createDisplay(contentFragment) {
                     <img src="${getAEMHost()}${cfPrimaryImagePath}?width=1200&format=webply&optimize=medium" alt="${data[keys.title]}" loading="lazy" data-aue-type="media" data-aue-prop="${keys.primaryImage}">
                 </picture>
             </div>
-            <div class="content-fragment-${keys.title}-overlay">
+            <div >
                 <h1 class="content-fragment-${keys.title}" data-aue-type="text" data-aue-prop="${keys.title} ">${data[keys.title]}</h1>
             </div>
         </div>
